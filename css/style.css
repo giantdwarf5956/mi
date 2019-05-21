@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*首先清除默认样式*/
+body,h1,h2,p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    display: block;
+    border: none; /*兼容IE*/
+}
+
+input{
+    padding: 0;
+}
+
+/*头部样式*/
+body{
+    font-size: 12px;
+    font-family: "microsoft yahei";
+}
+
+.header{
+    widows: 100%;
+    height: 40px;
+    background: #333;
+    min-width: 1226px;
+}
+
+.container{
+    width: 1226px;
+    height: 40px;
+    /*background:yellow;*/
+    margin: 0 auto;
+}
+
+.container .container_left{
+    width: 800px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+
+.container .container_right{
+    width: 277px;
+    height: 40px;
+    float: right;
+
+}
+
+.container .container_left li{
+    float: left;
+  }
+  
+  .container .container_left li a{
+    color: #b0b0b0;
+}
+
+.container .container_left li span{
+    color: #424242;
+    margin: 0 6px;
+}
+
+.container .container_left li a:hover{
+    color: #fff;
+}
+
+.container .container_right .login{
+    width: 142px;
+    height: 40px;
+    /*background: gray;*/
+    line-height: 40px;
+    float: left;
+}
+
+.container .container_right .login a{
+    color: #b0b0b0;
+}
+
+.container .container_right .login a:hover{
+    color: #fff;
+}
+
+.container .container_right .login span{
+    color: #424242;
+    margin: 0 6px;
+}
+
+.container .container_right .shopping{
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    float: right;
+    margin-left: 15px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.container .container_right .shopping .shoppingDetails{
+    width: 320px;
+    height: 100px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    line-height: 100px;
+    cursor: default;
+    display: none;
+    z-index: 2;
+}
+.container .container_right .shopping:hover .iconfont{
+    color: #f60;
+}
+
+.container .container_right .shopping:hover .car{
+    color: #f60;
+}
+
+.container .container_right .shopping:hover{
+    background:#fff;
+}
+
+
+.container .container_right .shopping:hover .shoppingDetails{
+    display: block;
+}
+
+
+
