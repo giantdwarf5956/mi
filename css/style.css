@@ -1,6 +1,4 @@
-@charset "utf-8";
 
-/*首先清除默认样式*/
 body,h1,h2,p{
     margin: 0;
 }
@@ -17,14 +15,14 @@ a{
 
 a img{
     display: block;
-    border: none; /*兼容IE*/
+    border: none; 
 }
 
 input{
     padding: 0;
 }
 
-/*头部样式*/
+
 body{
     font-size: 12px;
     font-family: "microsoft yahei";
@@ -40,7 +38,7 @@ body{
 .container{
     width: 1226px;
     height: 40px;
-    /*background:yellow;*/
+
     margin: 0 auto;
 }
 
@@ -78,7 +76,7 @@ body{
 .container .container_right .login{
     width: 142px;
     height: 40px;
-    /*background: gray;*/
+
     line-height: 40px;
     float: left;
 }
@@ -142,3 +140,97 @@ body{
 
 
 
+
+
+
+
+.nav{
+  width: 100%;
+  height: 100px;
+  /*background: gray;*/
+
+}
+
+.nav .wrap{
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+  /*background: yellow;*/
+}
+
+.nav .wrap .logo{
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin-top:22px;
+
+}
+
+.nav .wrap .logo a{
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: url("../image/mi-logo.png") #ff6700 center;
+
+}
+
+.nav .wrap .main{
+  width: 630px;
+  height: 55px;
+  /*background: pink;*/
+  float: left;
+  margin-left: 200px;
+  margin-top: 22px;
+}
+
+.nav .wrap .main li{
+  float: left;
+  line-height: 55px;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav .wrap .main li a{
+  padding: 26px 10px 38px;
+  color: #333;
+}
+
+.nav .wrap .main li a:hover{
+  color: #f60;
+}
+
+.nav .wrap .search{
+  width: 300px;
+  height: 50px;
+  /*background: pink;*/
+  float: right;
+  margin-top: 22px;
+}
+
+.nav .wrap .search:hover .input input{
+  border-color: #bbb;
+}
+
+.nav .wrap .search:hover .find{
+  border-color: #bbb;
+}
+
+.nav .wrap .search .input{
+  width: 245px;
+  height: 50px;
+  /*background: gray;*/
+  float: left;
+  position: relative;
+}
+
+.nav .wrap .search .input input{
+  width: 244px;
+  height: 48px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-right: 0;
+  text-indent: 10px;
+  font-size: 12px;
+  font-family: "microsoft yahei";
+  transition:.2s;
+}
