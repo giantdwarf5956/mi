@@ -167,7 +167,7 @@ body{
 }
 
 .nav .wrap .logo a{
-  display: block;
+  display: inline-block;
   width: 55px;
   height: 55px;
   background: url("../image/mi-logo.png") #ff6700 center;
@@ -236,6 +236,43 @@ body{
 }
 
 
+/*                                                                                                            */
+
+.search_into{
+  background-image:url("../image/search1.png"); 
+  list-style:none;
+  margin: 0px;
+  width: 52px;
+  height:49px;
+  border-style: none;
+  border:1px solid #E0E0E0; background-color:#FFFFFF;
+  float: right;
+  /* border-left:hidden; */
+  
+  font:23px bolder;}
+.search_into:hover{
+  cursor:pointer;
+  background-image:url("../image/search2.png");
+  color:#FFF;
+  background-color: #FF6700;
+  border-color: #FF6700;
+  transition:0.2s;
+}
+
+
+.iconfont{
+  float: right;
+  /* display: inline-block; */
+top:10%;
+margin-top: 10px;
+padding: 0px 10px 0px 100px;
+width: 20px;
+height: 20px;
+
+}
+
+
+/*                                                                                                            */
 
 
 
@@ -306,7 +343,7 @@ body{
 background-size: 100%;
 
 }
-
+/*                                                                                                            */
 
 .b-main .b-m-btn .left{
   left: 235px;
